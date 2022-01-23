@@ -1,0 +1,14 @@
+{
+    "name": "Amazing Xray heroku server ",
+    "description": "Deploy your own xray from heroku",
+    "logo":"https://te.legra.ph/file/580d01abee89029729300.jpg",
+    "keywords": ["xray"],
+    "env": {
+        "UUID": {
+            "description": "gen your uuid from here (https://www.uuidgenerator.net/) ",
+            "required": true        
+        }
+    },
+    "repository": "https://github.com/",
+    "stack": "container"
+}
