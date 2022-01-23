@@ -40,5 +40,5 @@ steps for nubs
 
 boom you are done 👀
 
-if you dont understand contact me on telegram
+if you dont understand contact me on telegram ☘️
 t.me/WhiteDevilOp999
