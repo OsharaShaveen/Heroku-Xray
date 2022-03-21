@@ -1,8 +1,8 @@
 icon: https://apps.okteto.com/movies/icon.png
 deploy:
-  - okteto build -t okteto.dev/api:$https://github.com/OsharaShaveen/Heroku-Xray api
-  - okteto build -t okteto.dev/frontend:${OKTETO_GIT_COMMIT} frontend
-  - helm upgrade --install movies chart --set tag=${OKTETO_GIT_COMMIT}
+build:
+  docker:
+    web: Dockerfile
 devs:
   - api/okteto.yml
   - frontend/okteto.yml
